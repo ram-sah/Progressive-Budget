@@ -1,12 +1,12 @@
-# 18.MongoDb: Progressive-Budget
+# 18. Progressive-Budget
 
-[![License: MIT](https://img.shields.io/badge/License-Apache2.0-green.svg)](https://opensource.org/licenses/MIT)
 [![LanguageCount](https://img.shields.io/github/languages/count/ram-sah/Progressive-Budget)](https://github.com/ram-sah/Progressive-Budget)
+[![License: Apache](https://img.shields.io/badge/License-Apache2.0-green.svg)](https://www.apache.org/licenses)
 [![License](https://img.shields.io/github/repo-size/ram-sah/Progressive-Budget?logo=gitHub)](https://github.com/ram-sah/Progressive-Budget)
 
 ## Description: 
 
-This project is a Offline application. In this application, the user will be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online.
+This project is a Online and Offline Application. In this application, the user will be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online.
          
 ## Table of Contents
        
@@ -15,6 +15,8 @@ This project is a Offline application. In this application, the user will be abl
 * [Usage](#usage)
             
 * [License](#license)
+
+* [Technologies-Used](#Technologies-Used)
             
 * [Questions](#Questions)
 
@@ -35,6 +37,17 @@ Run 'node server.js' from Terminal
 ## License 
             
 This project is licensed under the Apache License 2.0
+
+### Technologies-Used
+
+* Compression: Used to decreases the downloadable amount of data that's served to users. 
+* Lite-server: It serves the static content, detects changes, refreshes the browser, and offers many customizations.
+* Morgan: For HTTP request logger middleware for Node. js.
+* Express: This framework is used for developing Node js applications.
+* Mongoose: is an Object Data Modeling (ODM) library for MongoDB and Node. js. It manages relationships between data.
+* Robo 3T: to Store data locally.
+* Heroku to Deploy Application.
+* MongoDB Atlas to create database online.
 
 ## Questions
             
