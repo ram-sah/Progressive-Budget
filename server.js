@@ -18,6 +18,7 @@ app.use(express.static("public"));
 //   useNewUrlParser: true,
 //   useFindAndModify: false
 // });
+
 mongoose.connect(
   process.env.MONGODB_URI || 'mongodb://localhost/budget',
   {
