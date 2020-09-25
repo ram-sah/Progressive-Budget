@@ -1,4 +1,4 @@
-# 18. Progressive-Budget
+# 18. Progressive Web App: Progressive-Budget
 
 [![LanguageCount](https://img.shields.io/github/languages/count/ram-sah/Progressive-Budget)](https://github.com/ram-sah/Progressive-Budget)
 [![License: Apache](https://img.shields.io/badge/License-Apache2.0-green.svg)](https://www.apache.org/licenses)
@@ -38,7 +38,7 @@ Run 'node server.js' from Terminal
             
 This project is licensed under the Apache License 2.0
 
-### Technologies-Used
+## Technologies-Used
 
 * Compression: Used to decreases the downloadable amount of data that's served to users. 
 * Lite-server: It serves the static content, detects changes, refreshes the browser, and offers many customizations.
