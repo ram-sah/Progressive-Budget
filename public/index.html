@@ -5,14 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="theme-color" content="#317EFB">
-  <link rel="shortcut icon" href="icons/icon-192x192.png" type="image/x-icon">
-
+  <link rel="icon" href="./icons/budget.png">
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="styles.css">
 
   <title>Budget Tracker</title>
 </head>
 <body>
+  <nav class="nav-bar">
+    <h1> 💰 Budget Tracker 💰</h1>
+    <hr>
+    <div id="currentDay" class="text-center">
+    </div>
+</nav>
   <div class="wrapper">
     <div class="total">
       <div class="total">Your total is: $<span id="total">0</span></div>
@@ -21,8 +28,8 @@
     <div class="form">
       <input type="text" id="t-name" placeholder="Name of transaction" />
       <input type="number" min="0" id="t-amount" placeholder="Transaction amount" />
-      <button id="add-btn"><i class="fa fa-plus buttons"></i> Add Funds</button>
-      <button id="sub-btn"><i class="fa fa-minus"></i> Subtract Funds</button>
+      <button id="add-btn" class="btn btn-success"><i class="fa fa-plus buttons"></i> Add Funds</button>
+      <button id="sub-btn" class="btn btn-danger"><i class="fa fa-minus"></i> Subtract Funds</button>     
       <p class="error"></p>
     </div>
 
@@ -40,8 +47,17 @@
     
     <canvas id="myChart"></canvas>
   </div>
-
   <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
   <script src="index.js"></script>
+  <!--=========== FOOTER SECTION================-->
+  <footer id="footer">   
+      <div class="row">
+        <div class="col-12">
+          <div class="footer_left">
+            <p>Copyright &copy; 2020 <a href="https://github.com/ram-sah/Progressive-Budget" target="_blank">RAM SAH</a> All Rights Reserved</p>
+          </div>
+        </div>           
+      </div>   
+  </footer>
 </body>
 </html>

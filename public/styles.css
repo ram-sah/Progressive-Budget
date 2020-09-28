@@ -2,7 +2,36 @@ body {
   font-size: 120%;
   font-family: Arial;
 }
-
+/* navbar styles */
+.nav-bar{
+  text-align: center;
+  background-color: #097e09;
+  border-bottom: solid;
+  border-bottom-color: #856404;  
+  border-bottom-width: 5px; 
+  color: white;
+}
+body{
+  background-image: url("./icons/background.png");
+  -webkit-background-size: cover;
+  background-repeat: no-repeat ;
+  background-attachment: fixed;
+}
+#footer {
+  background-color:  #097e09;   
+  border-top: solid;
+  border-top-color: #856404;  
+  border-top-width: 5px;
+  text-align: center; 
+  /* display: block; */
+  /* position: fixed; */
+  margin-bottom: 0%;
+  bottom: 0;
+  width: 100%;   
+}
+.footer_left {
+font-size: 15px;
+}
 button, input {
   font-size: 100%;
   font-family: Arial;
