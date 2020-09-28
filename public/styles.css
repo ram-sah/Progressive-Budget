@@ -12,7 +12,7 @@ body {
   color: white;
 }
 body{
-  background-image: url("./icons/background.png");
+  background-image: url("./dist/icons/background.png");
   -webkit-background-size: cover;
   background-repeat: no-repeat ;
   background-attachment: fixed;

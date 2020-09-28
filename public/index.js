@@ -1,3 +1,4 @@
+/* eslint-disable indent */
 let transactions = [];
 let myChart;
 
@@ -21,7 +22,7 @@ function populateTotal() {
   }, 0);
 
   const totalEl = document.querySelector("#total");
-  totalEl.textContent = total;
+  totalEl.textContent = total.toLocaleString();
 }
 
 function populateTable() {
@@ -33,7 +34,12 @@ function populateTable() {
     const tr = document.createElement("tr");
     tr.innerHTML = `
       <td>${transaction.name}</td>
-      <td>${transaction.value}</td>
+      <td>${transaction.value.toLocaleString("en-US", {
+        style: "currency",
+        currency: "USD",
+        minimumFractionDigits: 0,
+        maximumFractionDigits: 0
+      })}</td>
     `;
 
     tbody.appendChild(tr);
