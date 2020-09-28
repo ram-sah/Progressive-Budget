@@ -40,6 +40,8 @@ This project is licensed under the Apache License 2.0
 
 ## Technologies-Used
 
+* https://tinypng.com to compress the images.
+* https://jscompress.com/ to compress the js file.
 * Compression: Used to decreases the downloadable amount of data that's served to users. 
 * Lite-server: It serves the static content, detects changes, refreshes the browser, and offers many customizations.
 * Morgan: For HTTP request logger middleware for Node. js.

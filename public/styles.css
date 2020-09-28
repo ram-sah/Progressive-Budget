@@ -12,7 +12,7 @@ body {
   color: white;
 }
 body{
-  background-image: url("./icons/background.png");
+  background-image: url("./dist/icons/background.png");
   -webkit-background-size: cover;
   background-repeat: no-repeat ;
   background-attachment: fixed;
@@ -54,7 +54,9 @@ tr:nth-child(even) {
 .error {
   color: red;
 }
-
+.col-12{
+  height: 75px;
+}
 .wrapper {
   margin: 0 auto;
   max-width: 825px;
