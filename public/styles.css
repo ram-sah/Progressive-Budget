@@ -31,10 +31,12 @@ body{
 }
 .footer_left {
 font-size: 15px;
+margin-top: 20px;
 }
 button, input {
   font-size: 100%;
   font-family: Arial;
+  padding-left: 12px;
 }
 
 table {
@@ -42,11 +44,16 @@ table {
 }
 
 td, th {
-  border: 1px solid #dddddd;
+  border-bottom: 1px solid #0062cc;
   text-align: left;
   padding: 8px;
 }
-
+th {
+  background-color: #adb5bd;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    font-weight: 400;
+}
 tr:nth-child(even) {
   background-color: #dddddd;
 }
@@ -66,6 +73,7 @@ tr:nth-child(even) {
 .total {
   font-size: 150%;
   text-decoration: underline;
+  margin: 30px;
 }
 
 .form {
