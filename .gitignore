@@ -5,7 +5,6 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
-assets
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 
@@ -102,5 +101,8 @@ typings/
 
 # TernJS port file
 .tern-port
-assets/.DS_Store
 .DS_Store
+assets/CAREER-CONNECTION.md
+assets/instruction.md
+assets/MongoAtlas-Deploy.md
+assets
